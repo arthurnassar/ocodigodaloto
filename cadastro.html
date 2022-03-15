@@ -1,0 +1,137 @@
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="assets/tabicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Código da Loto</title>
+    <meta name="description" content="Seja bem vindo ao Código da Loto, aproveite seu período gratuito">
+    <link rel="stylesheet" href="./styles/matrix.css">
+    <link rel="stylesheet" href="./styles/cadastro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <canvas id="Matrix"></canvas>
+    <header>
+        <img class="w40 mt5" src="./assets/logo.png" alt="logo empresa">
+    </header>
+
+    <main>
+        <div id="left-div">
+
+            <p class="white text-align-center fs37">
+                ACERTE
+                <span class="fs37 green">
+                    14 PONTOS
+                </span>
+                SEMPRE
+            </p>
+            <div class="flex-row align-items-center justify-content-center">
+                <div id="left-div2">
+                    <img id="loto-img" src="./assets/img-5046.webp" alt="imagem lotofacil">
+                </div>
+                <div id="right-div2">
+                    <p class="green text-align-center w100 fs37 m5">Veja tudo que irá receber</p>
+                    <ul class="white">
+                        <li>Acesso a amostra grátis do código da loto</li>
+                        <li>Acesso a estratégias especiais</li>
+                        <li>Acesso a amostra grátis do código da loto</li>
+                        <li>Acesso a estratégias especiais</li>
+                        <li>Acesso a amostra grátis do código da loto</li>
+                        <li>Acesso a estratégias especiais</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="green-line"></div>
+
+        <div id="form-wrapper">
+            <h2 class="white">Insira seus dados abaixo para receber sua senha de acesso</h2>
+            <form action="/cadastro" method="post">
+                <div class="form-row">
+                    <div class="form-group col-sm-4">
+                        <input id="nome" name="nome" class="form-control" required="required" placeholder="Nome">
+                    </div>
+
+                    <div class="form-group col-sm-4">
+                        <input type="email" id="email" name="email" class="form-control" required="required"
+                            placeholder="Email">
+                    </div>
+
+                    <div class="form-group col-sm-4">
+                        <input id="celular" name="celular" class="form-control" required="required"
+                            placeholder="(99) 99999-9999" pattern="\(\d{2}\) \d{5}-\d{4}">
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary"><a href="/obrigado.html"> Realizar cadastro </a></button>
+            </form>
+        </div>
+
+        <div class="green-line"></div>
+
+        <section class="white flex-column section-id">
+            <div class="container">
+                <h2 class="glow">O CÓDIGO DA LOTO É PARA VOCÊ
+                    QUE...</h2>
+            </div>
+            <div id="section-wrapper">
+                <div class="card">
+                    <i aria-hidden="true" class="far fa-check-circle"></i>
+                    <div>
+                        <h2>CANSADO DE
+                            PERDER DINHEIRO
+                        </h2>
+                    </div>
+                    <div>
+                        <p>Não aguenta
+                            mais perder tanta grana apostando sem ganhar um centavo!
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <i aria-hidden="true" class="far fa-check-circle"></i>
+                    <div>
+                        <h2>CANSOU DE
+                            SISTEMAS QUE SÃO UMA FRÁUDE</h2>
+                    </div>
+                    <div>
+                        <p>Já testou
+                            vários sistemas que só é enrolação!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <i aria-hidden="true" class="far fa-check-circle"></i>
+
+                    <div>
+                        <h2>QUER UMA
+                            RENDA EXTRA E TRABALHANDO DE CASA</h2>
+                    </div>
+                    <div>
+                        <p>Foi humilhado
+                            por patrões ruins!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>contato@dominio.com.br</p>
+        <p>Desvendado o Código da Loto @ Todos os direitos reservados</p>
+    </footer>
+
+
+
+
+    <script src="./scripts/matrix.js"></script>
+    <script src="path/to/dist/feather.js"></script>
+</body>
+
+</html>
