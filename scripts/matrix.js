@@ -37,3 +37,15 @@ const draw = () => {
 };
 
 setInterval(draw, 50);
+
+
+function validFormAndReditec(){
+	const name = document.getElementById('nome').value;
+	const email = document.getElementById('email').value;
+	const cel = document.getElementById('celular').value;
+	if (name && email && cel) {
+		window.location.pathname = window.location.pathname.replace('cadastro.html' , 'obrigado.html')
+	}
+
+	return;
+}
