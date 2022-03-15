@@ -217,6 +217,11 @@ input {
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 @media screen and (max-width: 992px) {
     #section-wrapper {
         flex-direction: column;
