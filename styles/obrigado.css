@@ -239,3 +239,42 @@ ul {
 .fa-check-circle:hover {
     color: grey;
 }
+
+
+@media screen and (max-width: 700px) {
+    p {
+        font-size: large !important;
+        width: 100% !important;
+    }
+
+    span {
+        font-size: small !important;
+    }
+
+    #video-wrapper {
+        width: 90%;
+        height: 200px;
+    }
+
+    h2 {
+        font-size: large !important ;
+    }
+
+    button {
+        width: 80%;
+        align-self: center;
+    }
+
+    a {
+        font-size: x-small;
+    }
+
+    .container p {
+        font-size: small !important;
+    }
+
+    footer p{
+        font-size: xx-small !important;
+        text-align: center;
+    }
+}

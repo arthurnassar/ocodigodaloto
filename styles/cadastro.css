@@ -242,3 +242,60 @@ a {
 .fa-check-circle:hover {
     color: grey;
 }
+
+@media screen and (max-width: 700px) {
+    p {
+        font-size: medium !important;
+    }
+
+    #left-div p {
+        font-size: large !important;
+    }
+
+    li {
+        width: 100%;
+    }
+
+    span {
+        font-size: large !important;
+    }
+
+    ul {
+        font-size:small;
+        width: 75%;
+    }
+
+    main {
+        width: 95%;
+    }
+
+    .w40 {
+        width: 70%;
+    }
+
+    a {
+        font-size: large;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: large !important;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    i {
+        font-size: 80px !important;
+        height: fit-content !important;
+        width: fit-content !important;
+    }
+}

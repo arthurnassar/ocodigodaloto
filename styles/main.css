@@ -107,3 +107,51 @@ button:hover {
     width: fit-content;
     overflow: hidden;
 }
+
+@media screen and (max-width: 700px){
+    main {
+        flex-direction: column;
+        gap: 25px;
+    }    
+
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+'
+    #video-container {
+        width: 100%;
+    }
+
+    #right-div {
+        width: fit-content;
+    }
+
+    #left-div {
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    button {
+        width: 80%;
+    }
+
+    img {
+        width: 300px !important;
+    }
+
+    p {
+        font-size: large !important;
+    }
+
+    a {
+        font-size: small !important;
+    }
+
+    footer p {
+        font-size: small !important;
+        text-align: center;
+    }
+}
