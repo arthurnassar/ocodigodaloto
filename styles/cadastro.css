@@ -106,7 +106,8 @@ footer {
     height: 20vw;
 }
 
-button {
+.btn {
+    
     background-color: #04d361;
     box-shadow: 0px 0px 15px 0px #04d361;
     border: none;
@@ -117,6 +118,7 @@ button {
 }
 
 button:hover {
+    cursor: pointer;
     transform: scale(1.1);
     background-color: #0aee70;
 }
@@ -298,4 +300,7 @@ a {
         height: fit-content !important;
         width: fit-content !important;
     }
+    
+.cursor {
+    cursor: pointer;
 }
