@@ -275,8 +275,8 @@ a {
         width: 70%;
     }
 
-    a {
-        font-size: large;
+    button {
+        font-size: small !important;
     }
 
     form {
